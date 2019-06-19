@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import ReactDOM from 'react-dom';
-import { whileStatement } from '@babel/types';
+//import ReactDOM from 'react-dom';
+//import { whileStatement } from '@babel/types';
 
 const green = '#39D1B4';
 const yellow = '#FFD712';
-const white = '#111111';
+//const white = '#111111';
 
 
 
