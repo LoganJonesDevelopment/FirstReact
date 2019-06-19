@@ -1,12 +1,13 @@
 import React from 'react';
-//import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
-//import ReactDOM from 'react-dom';
-//import { whileStatement } from '@babel/types';
+import ReactDOM from 'react-dom';
+import { whileStatement } from '@babel/types';
+import Table from './Table';
 
 const green = '#39D1B4';
 const yellow = '#FFD712';
-//const white = '#111111';
+const white = '#111111';
 
 
 
@@ -22,13 +23,13 @@ changeColor() {
   const newColor = this.state.color === green ? yellow : green;
   this.setState({color: newColor});
 }
-//
+
   render() {
     return (
     <div>
     <h1>
-        Wow this app is my first React App!
-      </h1>
+       Wow this app is my first React App!
+    </h1>
       <div style={{background: this.state.color}}>
       <h1>
         Change my color
@@ -37,6 +38,7 @@ changeColor() {
         Change color
       </button>
     </div>
+    <Table />
     </div>
     );
     
