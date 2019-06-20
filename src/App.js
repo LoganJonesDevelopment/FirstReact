@@ -45,5 +45,5 @@ changeColor() {
   }
 }
 
-//ReactDOM.render(<backgroundChange />, document.getElementById('app'));
+
  export default App;
